@@ -1,0 +1,36 @@
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Python
+
+**pycache**/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and generated records
+
+*.db
+*.sqlite
+*.sqlite3
+backend/data/certificates/
+backend/static/certificates/
+
+# Frontend dependencies and build output
+
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE and operating-system files
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
