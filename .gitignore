@@ -37,3 +37,6 @@ Thumbs.db
 
 
 .pytest_cache/
+
+# Temporary Vite config files
+frontend/vite.config.*.timestamp-*.mjs
